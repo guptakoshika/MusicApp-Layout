@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MoreActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In this section the user will get all the songs from the database either its in the history or not."
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:padding="16dp"/>
+
+        <Button
+            android:id="@+id/musiclib_fav_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:padding="10dp"
+            android:text="my favourites"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"/>
+
+        <Button
+            android:id="@+id/music_play_button"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="#000000"
+            android:padding="10dp"
+            android:text="playing now"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</LinearLayout>
+

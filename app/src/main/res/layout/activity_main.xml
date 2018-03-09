@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+     <TextView
+        android:id="@+id/playnow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="playing now"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:padding="24dp"
+        android:background="#E91E63"
+        android:textColor="#FFFFFF"/>
+
+     <TextView
+        android:id="@+id/fav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="my favourites"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:padding="24dp"
+        android:background="#4A148C"
+        android:textColor="#FFFFFF"/>
+
+     <TextView
+        android:id="@+id/more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Music Library"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:padding="24dp"
+        android:background="#006064"
+        android:textColor="#FFFFFF"/>
+
+     <TextView
+        android:id="@+id/payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:padding="24dp"
+        android:textColor="#FFFFFF"
+        android:background="#4CAF50"/>
+
+ </LinearLayout>
+

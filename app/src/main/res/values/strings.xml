@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="payment">In this project as an external file I have used common Langs.It is a opern source java file which is provided by Apache.
+    To use a external file,first download it from internet.Then follow the steps as follows:"\n"
+    1. File>New>New Module.A dialogue box is open from that select import .JAR/.AAR activity."\n"
+    2.On clicking next a new dialogue box will appear.In that put the file location and file name."\n"
+    Next, you need to declare the dependency of the main project into the newly created module."\n"
+    3.click on File>Project structure"\n"In the diagloue box click on app dependencies and then click on +."\n"
+    4.On clicking + a dialogue box will appear.then click on Module dependency."\n"
+    5. a new dialogue box will appear and then select package. click on ok."\n"
+    6.Now in the dependencies dialogue box it will show the added folder select that and click ok."\n"
+    7.you can check your module in build.gradle(Module::App) </string>
+</resources>

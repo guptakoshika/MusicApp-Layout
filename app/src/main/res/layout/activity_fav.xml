@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.FavActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="In this section the user is provided with the list of the songs thst htey like.
+ The songs will be displayed on the screen in the order of highly liked to unliked."
+    android:textColor="#000000"
+    android:textSize="16sp"
+    android:padding="16dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/playnow_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:padding="10dp"
+            android:text="playing now"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"/>
+
+        <Button
+            android:id="@+id/musiclib_button"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="#000000"
+            android:padding="10dp"
+            android:text="Music Library"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
